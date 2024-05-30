@@ -8,9 +8,7 @@
     body{
       background-color:#eeeee4;
   }
-  .text-center{
-      text-align: center;
-  }
+ 
   .receipt-container{
    width: 80%;
    border: 1px solid grey;
@@ -81,6 +79,162 @@
             font-size: 20px;
             background-color: #ffca39;
         }
+
+        /* Mobile Devices */
+@media screen and (min-width: 600px) and (max-width: 768px) {
+    .receipt-container {
+        width: 95%;
+    }
+    .receipt-title {
+        font-size: 25px;
+    }
+    .receipt-details {
+        font-size: 18px;
+    }
+    .receipt-detail-key, .receipt-detail-value {
+        width: 100%;
+    }
+    .stamp {
+        width: 120px;
+    }
+    .brand-address, .brand-mobile {
+        text-align: center;
+    }
+    .accountant-signature {
+        text-align: center;
+    }
+    .receipt-footer {
+        font-size: 18px;
+        padding: 15px 0;
+    }
+}
+
+
+/* Small Devices */
+@media screen and (max-width: 500px) {
+    .receipt-container {
+        width: 100%;
+        padding: 5px;
+    }
+    .brand-logo {
+        width: 80px;
+    }
+    .receipt-title {
+        font-size: 18px;
+        margin: 20px 0;
+    }
+    .receipt-details {
+        font-size: 14px;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .receipt-detail-key, .receipt-detail-value {
+        width: 100%;
+        text-align: left;
+    }
+    .stamp {
+        width: 80px;
+        right: 10px;
+        bottom: 10px;
+    }
+    .brand-address, .brand-mobile, .accountant-signature {
+        text-align: left;
+        font-size: 14px;
+    }
+    .receipt-footer {
+        font-size: 16px;
+        padding: 10px 0;
+    }
+}
+
+ 
+/* Mobile Devices */
+@media screen and (min-width: 600px) and (max-width: 768px) {
+    .receipt-container {
+        width: 95%;
+    }
+    .receipt-title {
+        font-size: 25px;
+    }
+    .receipt-details {
+        font-size: 18px;
+    }
+    .receipt-detail-key, .receipt-detail-value {
+        width: 100%;
+    }
+    .stamp {
+        width: 120px;
+    }
+    .brand-address, .brand-mobile {
+        text-align: center;
+    }
+    .accountant-signature {
+        text-align: center;
+    }
+    .receipt-footer {
+        font-size: 18px;
+        padding: 15px 0;
+    }
+}
+
+/* Tablet Devices */
+@media screen and (min-width: 769px) and (max-width: 992px) {
+    .receipt-container {
+        width: 90%;
+    }
+    .receipt-details {
+        flex-direction: column;
+        align-items: center;
+    }
+    .receipt-detail-key, .receipt-detail-value {
+        width: 80%;
+        text-align: center;
+    }
+    .stamp {
+        width: 140px;
+    }
+    .brand-address, .brand-mobile {
+        text-align: center;
+    }
+    .accountant-signature {
+        text-align: center;
+    }
+    .receipt-footer {
+        font-size: 18px;
+        padding: 15px 0;
+    }
+}
+
+/* Desktop Devices */
+@media screen and (min-width: 993px) and (max-width: 1200px) {
+    .receipt-container {
+        width: 90%;
+    }
+    .receipt-details {
+        flex-direction: column;
+        align-items: center;
+    }
+    .receipt-detail-key, .receipt-detail-value {
+        width: 80%;
+        text-align: center;
+    }
+    .stamp {
+        width: 150px;
+    }
+    .brand-address, .brand-mobile {
+        text-align: right;
+    }
+    .accountant-signature {
+        text-align: right;
+    }
+    .receipt-footer {
+        font-size: 20px;
+        padding: 20px 0;
+    }
+}
+
+
+
 </style>
 </head>
 <body>
